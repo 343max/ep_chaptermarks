@@ -3,7 +3,8 @@
         {
             "name": "apples",
             "hooks": {
-                "eejsBlock_editbarMenuRight": "ep_chaptermarks/js/index:eejsBlock_editbarMenuRight"
+                "eejsBlock_editbarMenuRight": "ep_chaptermarks/js/index:eejsBlock_editbarMenuRight",
+                "eejsBlock_editbarMenuLeft": "ep_chaptermarks/js/index:eejsBlock_editbarMenuLeft"
             }
         }
     ]
