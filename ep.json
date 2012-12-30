@@ -3,8 +3,13 @@
         {
             "name": "apples",
             "hooks": {
-                "eejsBlock_editbarMenuRight": "ep_chaptermarks/js/index:eejsBlock_editbarMenuRight",
-                "eejsBlock_editbarMenuLeft": "ep_chaptermarks/js/index:eejsBlock_editbarMenuLeft"
+                "eejsBlock_scripts": "ep_chaptermarks/js/server:eejsBlock_scripts",
+                "eejsBlock_editbarMenuRight": "ep_chaptermarks/js/server:eejsBlock_editbarMenuRight",
+                "eejsBlock_editbarMenuLeft": "ep_chaptermarks/js/server:eejsBlock_editbarMenuLeft"
+            },
+            "client_hooks": {
+                "aceGetFilterStack": "ep_chaptermarks/static/js/client:aceGetFilterStack",
+                "acePostWriteDomLineHTML": "ep_chaptermarks/static/js/client:acePostWriteDomLineHTML"
             }
         }
     ]
