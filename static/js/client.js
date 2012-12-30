@@ -7,7 +7,7 @@ exports.aceGetFilterStack = function(name, context) {
 exports.acePostWriteDomLineHTML = function(hook_name, args, callback) {
   $(args.node).children('span.timestamp').each(
     function() {
-      var a = $('<a>').attr('class', $(this).attr('class')).text($(this).text()).attr('href', '#').click(clickedTimestampLink);
+      var a = $('<a>').attr('class', $(this).attr('class')).text($(this).text()).attr('href', '#').click(ep_chaptermarks.linkClick);
       $(this).replaceWith(a);
     }
   );
