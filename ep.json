@@ -1,0 +1,10 @@
+{
+    "parts": [
+        {
+            "name": "apples",
+            "hooks": {
+                "eejsBlock_editbarMenuRight": "ep_chaptermarks/js/index:eejsBlock_editbarMenuRight"
+            }
+        }
+    ]
+}
